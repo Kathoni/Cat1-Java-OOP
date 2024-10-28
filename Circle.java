@@ -18,6 +18,16 @@ public class Circle {
  public double getRadius() {
  return radius;
  }
+ public String getColor(){
+    return color;
+ }
+public void setRadius(double newRadius) {
+ radius = newRadius;
+}
+// Setter for instance variable color
+public void setColor(String newColor) {
+
+  }
 
  public double getArea() {
  return radius*radius*Math.PI;
