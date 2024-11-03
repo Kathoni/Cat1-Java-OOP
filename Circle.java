@@ -32,4 +32,10 @@ public void setColor(String newColor) {
  public double getArea() {
  return radius*radius*Math.PI;
  }
+ 
+ public String tostring() {
+  return "radius= " + radius + "\n"+
+                " color= " + color + "\n"+
+                " area= " + getArea() + "\n" ;
+ }
 }
