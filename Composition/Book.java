@@ -18,6 +18,17 @@ class Book {
     public Author getAuthor() {
         return author;
     }
+    public String getAuthorName() {
+        return author.getName();
+    }
+
+    public String getAuthorEmail() {
+        return author.getEmail();
+    }
+    public char getAuthorGender() {
+        return author.getGender();
+    }
+
 
     public double getPrice() {
         return price;

@@ -24,6 +24,7 @@ class Author {
     public char getGender() {
         return gender;
     }
+    
 
     @Override
     public String toString() {
